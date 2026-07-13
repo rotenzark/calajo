@@ -161,7 +161,7 @@
   /* ---------- I18N (EN overlay; IT is the DOM default) ---------- */
   var EN = {
     'nav.salon': 'The salon', 'nav.services': 'Services', 'nav.work': 'Our work',
-    'nav.about': 'Marinella', 'nav.where': 'Find us', 'nav.reviews': 'Reviews',
+    'nav.about': 'Marinella', 'nav.where': 'Find us', 'nav.reviews': 'Reviews', 'nav.faq': 'FAQ',
     'cta.book': 'Book', 'cta.bookOnline': 'Book online', 'cta.whatsapp': 'Message us on WhatsApp', 'cta.call': '02 89151590',
 
     'hero.eyebrow': 'Hair Stylist · Lookmaker · Navigli, Milan',
@@ -228,7 +228,23 @@
     'foot.demo': 'Demo website by Bespoke Studio · public data (Treatwell, Google). Photos © Calajò Hair Stylist.',
     'foot.up': 'Back to top ↑',
 
-    'bar.call': 'Call', 'bar.wa': 'WhatsApp', 'bar.book': 'Book'
+    'bar.call': 'Call', 'bar.wa': 'WhatsApp', 'bar.book': 'Book',
+
+    'faq.kicker': 'FAQ', 'faq.t1': 'The answers,', 'faq.t2': 'before you even ask.',
+    'faq.q1': 'How do I book an appointment at Calajò?',
+    'faq.a1': 'You can book online 24/7 on Treatwell, or message us on WhatsApp at +39 329 073 4380 or call 02 89151590 during opening hours.',
+    'faq.q2': 'Where is the salon and how do I get there?',
+    'faq.a2': 'We are at Via Lodovico il Moro 3, on the Navigli (20143 Milan), steps from the Romolo and Porta Genova stops on the M2 line.',
+    'faq.q3': 'What are your opening hours?',
+    'faq.a3': 'Tuesday, Wednesday and Friday 9:30–18:00, Thursday 11:00–19:30, Saturday 9:30–17:00. Closed on Monday and Sunday.',
+    'faq.q4': 'Do you do colour, balayage and highlights?',
+    'faq.a4': 'Yes: from gloss to root colour, spatula highlights, modern balayage, foil mèches and colour removal. Real prices are in the list; “from €” rates vary with length and technique.',
+    'faq.q5': 'Do you cut men and children too?',
+    'faq.a5': 'Yes. Men’s cut €24 and kids’ cut (up to 12) €18.',
+    'faq.q6': 'Beyond hair, what else do you offer?',
+    'faq.a6': 'Marinella is also an image consultant and make-up artist: alongside cut and colour you’ll find make-up, image consulting and a manicure &amp; pedicure corner.',
+    'faq.q7': 'Do you offer a bridal service?',
+    'faq.a7': 'Yes, on request — together with Great Lengths extensions and make-up. Message us on WhatsApp for a tailored quote.'
   };
 
   var i18nEls = Array.prototype.slice.call(document.querySelectorAll('[data-i18n]'));

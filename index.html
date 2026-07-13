@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..600&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/styles.css?v=1">
+<link rel="stylesheet" href="css/styles.css?v=2">
 
 <!-- add .js flag as early as possible so no-JS content stays visible -->
 <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
@@ -65,6 +65,21 @@
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "11:00", "closes": "19:30" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:30", "closes": "18:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:30", "closes": "17:00" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Come prenoto un appuntamento da Calajò?", "acceptedAnswer": { "@type": "Answer", "text": "Puoi prenotare online 24 ore su 24 su Treatwell, oppure scriverci su WhatsApp al 329 073 4380 o chiamare lo 02 89151590 negli orari di apertura." } },
+    { "@type": "Question", "name": "Dove si trova il salone e come ci arrivo?", "acceptedAnswer": { "@type": "Answer", "text": "Siamo in Via Lodovico il Moro 3, ai Navigli (20143 Milano), a due passi dalle fermate Romolo e Porta Genova della linea M2." } },
+    { "@type": "Question", "name": "Quali sono gli orari di apertura?", "acceptedAnswer": { "@type": "Answer", "text": "Martedì, mercoledì e venerdì 9:30–18:00, giovedì 11:00–19:30, sabato 9:30–17:00. Lunedì e domenica siamo chiusi." } },
+    { "@type": "Question", "name": "Fate colore, balayage e mèches?", "acceptedAnswer": { "@type": "Answer", "text": "Sì: dal gloss al colore radici, colpi di sole, modern balayage, mèches e decapaggio. I prezzi reali sono nel listino; le tariffe «da €» variano in base a lunghezza e tecnica." } },
+    { "@type": "Question", "name": "Tagliate anche uomo e bambini?", "acceptedAnswer": { "@type": "Answer", "text": "Sì. Taglio uomo €24 e taglio bambino/a (fino a 12 anni) €18." } },
+    { "@type": "Question", "name": "Oltre ai capelli, cosa offrite?", "acceptedAnswer": { "@type": "Answer", "text": "Marinella è anche consulente d'immagine e truccatrice: oltre a taglio e colore trovi make-up, consulenza d'immagine e una zona manicure e pedicure." } },
+    { "@type": "Question", "name": "Fate il servizio sposa?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, su richiesta — insieme a extension Great Lengths e trucco. Scrivici su WhatsApp per un preventivo su misura." } }
   ]
 }
 </script>
@@ -119,6 +134,7 @@
   <a href="#marinella" data-i18n="nav.about">Marinella</a>
   <a href="#recensioni" data-i18n="nav.reviews">Recensioni</a>
   <a href="#dove" data-i18n="nav.where">Dove siamo</a>
+  <a href="#faq" data-i18n="nav.faq">Domande frequenti</a>
   <a class="btn btn--solid" href="https://www.treatwell.it/salone/calajo-hair-stylist/" target="_blank" rel="noopener" data-i18n="cta.book">Prenota online</a>
 </div>
 
@@ -377,6 +393,44 @@
       </div>
     </div>
   </section>
+
+  <!-- ░░ FAQ ░░ -->
+  <section class="faq" id="faq">
+    <div class="faq__head">
+      <p class="section-index reveal"><span class="spark spark--sm"><svg viewBox="0 0 24 24" fill="none"><path d="M12 0c.6 6.2 5.2 10.8 11.4 11.4C17.2 12 12.6 16.6 12 23c-.6-6.4-5.2-11-11.4-11.6C6.8 10.8 11.4 6.2 12 0Z" fill="currentColor"/></svg></span> 08 — <span data-i18n="faq.kicker">Domande frequenti</span></p>
+      <h2 class="reveal"><span data-i18n="faq.t1">Le risposte,</span> <em data-i18n="faq.t2">prima ancora di chiedere.</em></h2>
+    </div>
+    <div class="faq__list">
+      <details class="faq__item reveal">
+        <summary><span data-i18n="faq.q1">Come prenoto un appuntamento da Calajò?</span><span class="faq__mark" aria-hidden="true"></span></summary>
+        <div class="faq__a"><p data-i18n="faq.a1">Puoi prenotare online 24 ore su 24 su Treatwell, oppure scriverci su WhatsApp al 329 073 4380 o chiamare lo 02 89151590 negli orari di apertura.</p></div>
+      </details>
+      <details class="faq__item reveal">
+        <summary><span data-i18n="faq.q2">Dove si trova il salone e come ci arrivo?</span><span class="faq__mark" aria-hidden="true"></span></summary>
+        <div class="faq__a"><p data-i18n="faq.a2">Siamo in Via Lodovico il Moro 3, ai Navigli (20143 Milano), a due passi dalle fermate Romolo e Porta Genova della linea M2.</p></div>
+      </details>
+      <details class="faq__item reveal">
+        <summary><span data-i18n="faq.q3">Quali sono gli orari di apertura?</span><span class="faq__mark" aria-hidden="true"></span></summary>
+        <div class="faq__a"><p data-i18n="faq.a3">Martedì, mercoledì e venerdì 9:30–18:00, giovedì 11:00–19:30, sabato 9:30–17:00. Lunedì e domenica siamo chiusi.</p></div>
+      </details>
+      <details class="faq__item reveal">
+        <summary><span data-i18n="faq.q4">Fate colore, balayage e mèches?</span><span class="faq__mark" aria-hidden="true"></span></summary>
+        <div class="faq__a"><p data-i18n="faq.a4">Sì: dal gloss al colore radici, colpi di sole, modern balayage, mèches e decapaggio. Trovi i prezzi reali nel listino; le tariffe «da €» variano in base a lunghezza e tecnica.</p></div>
+      </details>
+      <details class="faq__item reveal">
+        <summary><span data-i18n="faq.q5">Tagliate anche uomo e bambini?</span><span class="faq__mark" aria-hidden="true"></span></summary>
+        <div class="faq__a"><p data-i18n="faq.a5">Sì. Taglio uomo €24 e taglio bambino/a (fino a 12 anni) €18.</p></div>
+      </details>
+      <details class="faq__item reveal">
+        <summary><span data-i18n="faq.q6">Oltre ai capelli, cosa offrite?</span><span class="faq__mark" aria-hidden="true"></span></summary>
+        <div class="faq__a"><p data-i18n="faq.a6">Marinella è anche consulente d'immagine e truccatrice: oltre a taglio e colore trovi make-up, consulenza d'immagine e una zona manicure &amp; pedicure.</p></div>
+      </details>
+      <details class="faq__item reveal">
+        <summary><span data-i18n="faq.q7">Fate il servizio sposa?</span><span class="faq__mark" aria-hidden="true"></span></summary>
+        <div class="faq__a"><p data-i18n="faq.a7">Sì, su richiesta — insieme a extension Great Lengths e trucco. Scrivici su WhatsApp per un preventivo su misura.</p></div>
+      </details>
+    </div>
+  </section>
 </main>
 
 <!-- ░░ FOOTER ░░ -->
@@ -429,6 +483,6 @@
   <button class="lightbox__nav lightbox__next" id="lb-next" type="button" aria-label="Successiva">›</button>
 </div>
 
-<script src="js/main.js?v=1"></script>
+<script src="js/main.js?v=2"></script>
 </body>
 </html>
